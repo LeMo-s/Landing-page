@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.head-content {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+#headerlogo {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    color: white;
+}
+
+.first, .second, .third, .fourth {
+    flex: 2;
+}
+
+.head-content, footer {
+    flex: 1;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+#maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.seccondarytext {
+    flex-wrap: wrap;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondsection {
+    flex-direction: column;
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+}
+
+.card > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: none;
+}
