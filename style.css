@@ -52,7 +52,7 @@ li {
     flex: 1;
 }
 
-.first {
+.first, .second, .third, .fourth {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,9 +93,6 @@ li {
 }
 
 .second {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 40px 0 100px 0;
 }
 
@@ -130,12 +127,11 @@ li {
 }
 
 .third {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #E5E7EB;
-    padding: 100px 0;
-    
+}
+
+.fourth, .second {
+    background-color: white;
 }
 
 .quotation {
@@ -162,17 +158,10 @@ li {
 
 }
 
-.fourth {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 100px 0;
-}
-
 .signup {
     display: flex;
     justify-content: space-between;
-    width: 60vw;
+    width: 50vw;
     background-color: #3882F6;
     padding: 40px;
     border-radius: 10px;
@@ -183,6 +172,7 @@ li {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
+    margin-left: 10px;
 }
 
 .callstrong {
@@ -209,6 +199,6 @@ button {
 }
 
 .signup > button {
-    margin-right: 50px;
+    margin-right: 70px;
     border: 2px solid white;
 }
