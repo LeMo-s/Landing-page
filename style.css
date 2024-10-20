@@ -9,8 +9,9 @@ body {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
 
 .head-content {
@@ -28,8 +29,10 @@ img {
 }
 
 #headerlogo {
-    color: white;
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
 
 ul {
     list-style: none;
@@ -54,6 +57,7 @@ li {
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
+    padding: 100px 0;
 }
 
 .container {
@@ -63,34 +67,66 @@ li {
     width: 60vw;
 }
 
+.firsttext {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    gap: 20px;
+}
+
 #maintext {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.seccondarytext {
+.secondarytext {
     flex-wrap: wrap;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#imghero {
+    width: 550px;
+    height: 250px;
 }
 
 .second {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px 0 100px 0;
 }
 
 .secondsection {
     flex-direction: column;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    gap: 40px;
+    padding: 0 100px;
 }
 
 .items {
     display: flex;
-    gap: 20px;
+    gap: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap:8px;
 }
 
 .card > div {
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 16px;
+    color: grey;
+    font-weight: 100;
+    text-align: center;
 }
 
 .third {
@@ -98,40 +134,67 @@ li {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
+    padding: 100px 0;
+    
 }
 
 .quotation {
     display: flex;
     flex-direction: column;
     width: 60vw;
+    padding: 0 40px;
+    width: 800px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .author {
     align-self: flex-end;
+    font-weight: 800;
+    font-size: 20px;
+    padding-right: 50px;
+
 }
 
 .fourth {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 0;
 }
 
 .signup {
     display: flex;
     justify-content: space-between;
     width: 60vw;
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
 }
 
 .call {
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+}
+
+.callstrong {
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
     background-color: #1F2937;
     color: white;
 }
@@ -139,7 +202,13 @@ li {
 button {
     background-color: #3882F6;
     color: white;
-    padding: 5px;
+    padding: 8px;
     border-radius: 8px;
-    border-color: none;
+    width: 140px;
+    border-style: none;
+}
+
+.signup > button {
+    margin-right: 50px;
+    border: 2px solid white;
 }
